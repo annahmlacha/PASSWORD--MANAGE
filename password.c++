@@ -10,3 +10,12 @@ struct PasswordEntry {
     string username;  // Username
     string password;  // Password for the service
 };
+
+// Function to display the menu
+void displayMenu() {
+    cout << "\nPassword Manager Menu\n";
+    cout << "1. Add a new password\n";
+    cout << "2. View stored passwords\n";
+    cout << "3. Exit\n";
+    cout << "Choose an option: ";
+}
