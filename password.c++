@@ -42,3 +42,10 @@ void addPassword(vector<PasswordEntry>& passwordList) {
 
     cout << "Password added successfully!\n";
 }
+
+// Function to view stored passwords
+void viewPasswords(const vector<PasswordEntry>& passwordList) {
+    if (passwordList.empty()) {
+        cout << "No passwords stored.\n";
+        return;
+    }
