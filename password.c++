@@ -73,6 +73,10 @@ int main() {
                 addPassword(passwordList);  // Add a new password
                 break;
 
+                case 2:
+                viewPasswords(passwordList);  // View stored passwords
+                break;
+
 
 
 
