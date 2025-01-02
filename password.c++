@@ -58,6 +58,11 @@ cout << "\nStored Passwords:\n";
     }
 }
 
+int main() {
+    vector<PasswordEntry> passwordList;
+    int choice;
+
+
 
 
         return;
