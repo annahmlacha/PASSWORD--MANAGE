@@ -28,3 +28,7 @@ void addPassword(vector<PasswordEntry>& passwordList) {
     cout << "Enter the service name (e.g., Gmail, Facebook): ";
     cin.ignore();  // To ignore any leftover newline from previous input
     getline(cin, entry.service); 
+
+     // Get the username for the service
+    cout << "Enter the username: ";
+    getline(cin, entry.username);
