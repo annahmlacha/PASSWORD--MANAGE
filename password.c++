@@ -23,4 +23,8 @@ void displayMenu() {
 // Function to add a new password entry
 void addPassword(vector<PasswordEntry>& passwordList) {
     PasswordEntry entry;
-    
+
+   // Get the service/website name
+    cout << "Enter the service name (e.g., Gmail, Facebook): ";
+    cin.ignore();  // To ignore any leftover newline from previous input
+    getline(cin, entry.service); 
