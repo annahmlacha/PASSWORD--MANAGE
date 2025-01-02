@@ -47,5 +47,18 @@ void addPassword(vector<PasswordEntry>& passwordList) {
 void viewPasswords(const vector<PasswordEntry>& passwordList) {
     if (passwordList.empty()) {
         cout << "No passwords stored.\n";
+
+
+cout << "\nStored Passwords:\n";
+    for (const auto& entry : passwordList) {
+        cout << "Service: " << entry.service << endl;
+        cout << "Username: " << entry.username << endl;
+        cout << "Password: " << entry.password << endl;
+        cout << "------------------------\n";
+    }
+}
+
+
+
         return;
     }
