@@ -56,6 +56,7 @@ cout << "\nStored Passwords:\n";
         cout << "Password: " << entry.password << endl;
         cout << "------------------------\n";
     }
+    }
 }
 
 int main() {
@@ -79,7 +80,8 @@ int main() {
 
                 case 3:
                 cout << "Exiting password manager...\n";
-                return 0;  // Exit the program
+                // Exit the program
+                break;
 
                 default:
                 cout << "Invalid choice. Please try again.\n";
