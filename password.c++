@@ -19,3 +19,8 @@ void displayMenu() {
     cout << "3. Exit\n";
     cout << "Choose an option: ";
 }
+
+// Function to add a new password entry
+void addPassword(vector<PasswordEntry>& passwordList) {
+    PasswordEntry entry;
+    
