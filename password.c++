@@ -32,3 +32,7 @@ void addPassword(vector<PasswordEntry>& passwordList) {
      // Get the username for the service
     cout << "Enter the username: ";
     getline(cin, entry.username);
+
+     // Get the password for the service
+    cout << "Enter the password: ";
+    getline(cin, entry.password);
