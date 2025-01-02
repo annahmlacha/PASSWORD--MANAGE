@@ -77,6 +77,10 @@ int main() {
                 viewPasswords(passwordList);  // View stored passwords
                 break;
 
+                case 3:
+                cout << "Exiting password manager...\n";
+                return 0;  // Exit the program
+
 
 
 
