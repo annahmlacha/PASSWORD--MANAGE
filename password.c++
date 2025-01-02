@@ -63,6 +63,12 @@ int main() {
     int choice;
 
 
+     while (true) {
+        // Display menu
+        displayMenu();
+        cin >> choice;
+
+
 
 
         return;
