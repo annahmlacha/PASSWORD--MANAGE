@@ -68,6 +68,11 @@ int main() {
         displayMenu();
         cin >> choice;
 
+                switch (choice) {
+            case 1:
+                addPassword(passwordList);  // Add a new password
+                break;
+
 
 
 
