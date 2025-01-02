@@ -81,8 +81,17 @@ int main() {
                 cout << "Exiting password manager...\n";
                 return 0;  // Exit the program
 
-
-
-
-        return;
+                default:
+                cout << "Invalid choice. Please try again.\n";
+                break;
+        }
     }
+
+    return 0;
+}
+
+
+
+
+        
+    
